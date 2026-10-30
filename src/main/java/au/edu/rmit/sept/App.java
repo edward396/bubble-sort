@@ -16,10 +16,10 @@ public class App {
                     swapped = true;
                 }
             }
-            System.out.println("After pass " + i + ": " + Arrays.toString(a));
             if (!swapped) {
                 break;
             }
+            System.out.println("After pass " + i + ": " + Arrays.toString(a));
         }
     }
 }
